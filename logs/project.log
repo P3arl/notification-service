@@ -1,0 +1,11 @@
+2019-06-04 17:14:34.614  INFO 25300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-04 17:14:34.616  INFO 25300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-04 17:14:34.633  INFO 25300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-06-04 17:14:35.013  INFO 25300 --- [task-1] c.project.utility.service.EmailService   : Sending mail to user: John@gmail.com
+2019-06-04 17:14:56.707 ERROR 25300 --- [task-1] c.project.utility.service.EmailService   : Mail not sent. Error=Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+2019-06-04 17:14:56.708  INFO 25300 --- [task-1] c.project.utility.service.EmailService   : Mail sent...
+2019-06-04 17:15:34.711  INFO 25300 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory

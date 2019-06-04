@@ -1,0 +1,3 @@
+insert into users(id,email,phone_number,phone_type,subscription_plan,notification_limit) values(1,'John@gmail.com','1234567','android','SILVER','1M');
+insert into users(id,email,phone_number,phone_type,subscription_plan,notification_limit) values(2,'Ron@yahoo.com','98948498','apple','GOLD','10M');
+insert into users(id,email,phone_number,phone_type,subscription_plan,notification_limit) values(3,'Ban@gmail.com','8984984933','android','PLATINUM','unlimited');
