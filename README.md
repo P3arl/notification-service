@@ -4,3 +4,5 @@ Technologies used:
 Java 1.8
 Spring Boot 2.1
 In-Memory DB HSQL for easy testing purposes
+
+Note: will update some functions for modifications.
